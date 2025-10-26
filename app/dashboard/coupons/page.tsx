@@ -78,12 +78,12 @@ export default async function CouponsPage() {
                             <Edit className="h-4 w-4" />
                           </Link>
                         </Button>
-                        <form action={deleteCoupon}>
+                        {/* <form action={deleteCoupon}>
                           <input type="hidden" name="id" value={coupon.id} />
                           <Button variant="destructive" size="sm" type="submit">
                             <Trash2 className="h-4 w-4" />
                           </Button>
-                        </form>
+                        </form> */}
                       </div>
                     </td>
                   </tr>
