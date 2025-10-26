@@ -1,0 +1,2 @@
+-- This script initializes the database with Prisma
+-- Run: npx prisma migrate dev --name init
